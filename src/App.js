@@ -9,6 +9,7 @@ import Example from "./router/Route3";
 import UseCallback from './UseCallback'
 import UseCallback2 from './UseCallback2'
 import Counter from './useEffect/UseEffect'
+import Counters from './useEffect/UseEffect2'
 
 class App  extends Component{
     constructor(props) {
@@ -98,6 +99,12 @@ class App  extends Component{
                 <div style={style}>
                     < Counter />
                 </div>
+
+                <h1 style={{color:'skyblue'}}>十二、练习</h1>
+                <div style={style}>
+                    < Counters />
+                </div>
+
             </div>
 
         )
