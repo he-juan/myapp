@@ -6,8 +6,9 @@ import ReducerDemo from "./Reduce";
 import ParamsExample from "./router/Route";
 import NestingExample from './router/Route2'
 import Example from "./router/Route3";
-import UseCallback from './UseCallback.js'
-import UseCallback2 from './UseCallback2.js'
+import UseCallback from './UseCallback'
+import UseCallback2 from './UseCallback2'
+import Counter from './useEffect/UseEffect'
 
 class App  extends Component{
     constructor(props) {
@@ -91,6 +92,11 @@ class App  extends Component{
                 <h1 style={{color:'skyblue'}}>⑩、练习</h1>
                 <div style={style}>
                     < UseCallback2 />
+                </div>
+
+                <h1 style={{color:'skyblue'}}>十一、练习</h1>
+                <div style={style}>
+                    < Counter />
                 </div>
             </div>
 

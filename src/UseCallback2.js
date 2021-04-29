@@ -20,7 +20,6 @@ function UseCallback2() {
     const handleClick1 = () => {
         setA(a + 1)
     }
-
     const handleClick2 = useCallback(() => {
         setB(b + 1)
     }, [b])
