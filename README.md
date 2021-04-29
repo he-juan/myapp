@@ -39,8 +39,8 @@
 
 
 
->[react中关于useState/useEffect的基本使用](https://www.jianshu.com/p/8df94a560d11) https://www.jianshu.com/p/8df94a560d11
-> [react路由的基本使用](https://reactrouter.com/web/example/url-params)https://reactrouter.com/web/example/url-params
+  - [react中关于useState/useEffect的基本使用](https://www.jianshu.com/p/8df94a560d11) https://www.jianshu.com/p/8df94a560d11
+  - [react路由的基本使用](https://reactrouter.com/web/example/url-params)https://reactrouter.com/web/example/url-params
 
  1.使用useCallback进行处理（练习10）
      - 点击事件handleClick1触发时，PageB组件也会重新渲染，当PageB组件比较耗时时，就会造成新能问题
